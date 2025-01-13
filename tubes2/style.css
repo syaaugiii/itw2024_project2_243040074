@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100;0,9..40,200;0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;0,9..40,900;0,9..40,1000;1,9..40,100;1,9..40,200;1,9..40,300;1,9..40,400;1,9..40,500;1,9..40,600;1,9..40,700;1,9..40,800;1,9..40,900;1,9..40,1000&display=swap");
+
+:root {
+  --success: #17a598;
+  --success-light: #e8fffd;
+  --blue-light: #e8faff;
+  --warning: #ffb600;
+  --dark: #242b2f;
+}
+
+body {
+  font-family: "DM Sans", sans-serif;
+}
+
+.font-bs {
+  font-family: "Berkshire Swash", serif;
+}
+
+/* Navbar */
+.nav-link {
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0px 10px;
+}
+
+/* Button */
+.btn {
+  font-size: 18px;
+  font-weight: 600;
+  padding: 8px 25px;
+}
+
+.btn-success {
+  background-color: var(--success);
+  color: white;
+  border: 1px solid var(--success);
+}
+
+.btn-outline-success {
+  background-color: white;
+  color: var(--success);
+  border: 1px solid var(--success);
+}
+.btn-light-success {
+  background-color: var(--success-light);
+  color: var(--success);
+  border: 1px solid var(--success-light);
+}
+.btn-warning {
+  background-color: var(--warning);
+  color: rgb(1, 1, 1);
+  border: 1px solid var(--warning);
+}
+
+/* Jadwal Sholat */
+.bg-light-success {
+  background-color: var(--success-light);
+}
+
+/* Event */
+.bg-green {
+  background-color: var(--success);
+}
+
+/* Media */
+.bg-blue-light {
+  background-color: var(--blue-light);
+}
+
+/* Anggota */
+.anggota {
+  background: url(images/il-anggota.png) no-repeat center center;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  background-size: cover;
+}
+
+/* Footer */
+.contact {
+  background-color: var(--dark);
+  color: white;
+}
